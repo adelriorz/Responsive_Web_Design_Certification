@@ -1,6 +1,13 @@
+header{
+    background-image: url(backgrounds/3.jpg);
+    height: 100vh;
+    background-size: cover;
+}
 
 body {
     font-family: 'EB Garamond';
+    padding: 0px;
+    margin: 0px;
 }
 .menu {
     display: flex; 
@@ -11,7 +18,7 @@ body {
 #menuTitle {
     font-size: 22px;
     font-style: normal;
-    color: #000000;
+    color: #ffffff;
 }
 
 ul {
@@ -32,7 +39,7 @@ li {
 }
 
 a{
-    color: #000000;
+    color: #ffffff;
     padding: 5px;
     text-decoration: none;
 }
@@ -52,8 +59,5 @@ h2{
     font-size: 20px;
     background: #4169E1;
     text-decoration: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px, 10px, 5px, 10px;
 }
