@@ -1,0 +1,28 @@
+/*body { background: blue; }*/
+/*Access to class 'acerca-nosotros'*/
+/*.acerca-nosotros { color: #00008B; }*/
+body {
+    font-family: 'EB Garamond';
+}
+.menu {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 25px;
+}
+#menuTitle {
+    font-size: 20px;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    color: #00008B;
+}
+
+li {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
