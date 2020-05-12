@@ -94,7 +94,7 @@ h2{
     align-items: stretch;
 }
 
-img {
+.profileImage {
     justify-content: center;
     max-width: 50%;
     height: 40%;
@@ -103,7 +103,7 @@ img {
     margin-right: 50px;
 }
 
-.paragraph {
+.paragraphAbout {
     color: #ffffff;
     font-family: 'EB Garamond';
     font-size: 22px;
