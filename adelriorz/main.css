@@ -1,0 +1,113 @@
+.container{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    background-image: url(backgrounds/1.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+body{
+    font-family: 'EB Garamond';
+    padding: 0px;
+    margin: 0px;
+}
+.menu{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+#menuTitle{
+    font-size: 22px;
+    font-style: normal;
+    color: #ffffff;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    text-align: right;
+}
+
+li{
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+
+.title{
+    margin-top: 200px;
+    text-align: center;
+}
+
+a{
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 30px;
+    margin: 0px;
+    color: #000000;
+}
+
+h2{
+    font-size: 25px;
+    margin: 0px;
+    color: #000000;
+}
+
+.portfolio{
+    margin-top: 20px;
+    font-size: 20px;
+    background: #4169E1;
+    text-decoration: none;
+    padding: 5px, 10px, 5px, 10px;
+}
+
+/*About me section*/
+
+.H3Style{
+    margin: auto;
+    padding: auto;
+    padding-bottom: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 55px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'EB Garamond';
+    justify-content: center;
+    background-image: url(backgrounds/computerOpening.jpg);
+    height: 100vh;
+    background-size: cover;
+    align-items: stretch;
+}
+
+img {
+    justify-content: center;
+    max-width: 50%;
+    height: 40%;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.paragraph {
+    color: #ffffff;
+    font-family: 'EB Garamond';
+    font-size: 22px;
+    text-justify: auto;
+    text-align: justify;
+}
+
