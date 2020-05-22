@@ -152,6 +152,8 @@ h2{
 .container-services{
     padding-left: 105px;
     padding-right: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -171,7 +173,7 @@ h2{
     font-size: 17px;
     text-align: justify;
     height: 400px; /*resolves problem with text sizes*/
-
+    line-height: 25px;
 }
 
 .blue{
@@ -217,9 +219,11 @@ h2{
     height: 110px;
 }
 
-span{
-    font-size: 80px;
+.span{
+    font-size: 60px;
     color: #000080;
+    font-weight: bolder;
+    padding: 8px;
 }
 
 .owl-nav{
