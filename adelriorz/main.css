@@ -19,7 +19,7 @@ body{
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    margin: 25px;
+    margin: 0px;
 }
 #menuTitle{
     font-size: 22px;
@@ -70,7 +70,7 @@ h2{
     padding: 5px, 10px, 5px, 10px;
 }
 
-/*About me section*/
+/*Submenu Section*/
 
 .H3Style{
     margin: auto;
@@ -80,7 +80,7 @@ h2{
     color: #ffffff;
     font-weight: bold;
     text-align: center;
-    font-size: 55px;
+    font-size: 40px;
 }
 
 .about{
@@ -109,5 +109,76 @@ h2{
     font-size: 22px;
     text-justify: auto;
     text-align: justify;
+    display: inline-block;
 }
 
+/*Business/Services Section*/
+
+.h3-service-style{
+    margin: auto;
+    padding: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
+.container-services{
+    padding-left: 105px;
+    padding-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Padding sums to element margin*/
+.service{
+    width: 20%;
+    justify-content: space-around;
+    color: #ffffff;
+    padding-top: 38px, 38px, 10px, 38px;
+    padding-right: 38px;
+    padding-bottom: 10px;
+    padding-left: 38px;
+    border-radius: 15px;
+    margin: 30px;
+    font-size: 18px;
+    text-align: justify;
+    height: 400px; /*resolves problem with text sizes*/
+}
+
+.blue{
+    background-color: #40a8fa;
+}
+
+.violet{
+    background-color: #5055df;
+}
+
+.container-services h4{
+    font-size: 25px;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.container-services img{
+    width: 75%;
+    margin: auto;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.process-improvement{
+    padding-bottom: 90px;
+}
+
+.space{
+    padding-bottom: 45px;
+}
