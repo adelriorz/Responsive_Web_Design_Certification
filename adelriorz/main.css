@@ -77,14 +77,16 @@ h2{
 
 /*Submenu Section*/
 
-.H3Style{
-    margin: auto;
-    padding: auto;
-    padding-bottom: 40px;
-    color: #ffffff;
-    font-weight: bolder;
+.about-background h3{
+    margin: 0px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: 	#ffffff;
+    font-weight: bold;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    font-style: italic;
 }
 
 .about-background{
@@ -104,15 +106,15 @@ h2{
 .about img {
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 30px;
     width: 50%;
-    margin-left: 50px;
-    margin-right: 50px;
     display: block; 
     align-items: center;
     display: flex;
     border-radius: 50px;
     justify-content: space-around;
     height: 20%;
+    padding-bottom: 30px;
 }
 
 .paragraphAbout {
@@ -128,12 +130,12 @@ h2{
 
 .h3-service-style{
     margin: 20px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 40px;
     color: 	#000000;
     font-weight: bold;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-style: italic;
 }
 
@@ -159,12 +161,12 @@ h2{
     width: 20%;
     justify-content: space-around;
     color: #ffffff;
-    padding-top: 38px, 38px, 10px, 38px;
+    padding-top: 20px;
     padding-right: 38px;
     padding-bottom: 10px;
     padding-left: 38px;
-    border-radius: 15px;
-    border-style: 5px outset;
+    border-radius: 20px;
+    border-style: 15% outset;
     margin: 30px;
     font-size: 17px;
     text-align: justify;
@@ -173,13 +175,13 @@ h2{
 }
 
 .blue{
-    background-color: #40a8fa;
-    border-color: #40a8fa;
+    background-color: #6495ED;
+    border-color: #6495ED;
 }
 
 .violet{
-    border-color: #5055df;
-    background-color: #5055df;
+    border-color: #7B68EE;
+    background-color: #7B68EE;
 }
 
 .container-services h4{
@@ -212,4 +214,14 @@ h2{
 
 .data-engineering{
     padding-bottom: 70px;
+    height: 110px;
+}
+
+span{
+    font-size: 80px;
+    color: #000080;
+}
+
+.owl-nav{
+    text-align: center;
 }
