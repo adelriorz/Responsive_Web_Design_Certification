@@ -1,3 +1,5 @@
+
+
 .container{
     max-width: 1280px;
     width: 90%;
@@ -51,23 +53,26 @@ a{
 }
 
 h1{
-    font-size: 30px;
+    font-size: 40px;
     margin: 0px;
     color: #000000;
 }
 
 h2{
-    font-size: 25px;
+    font-size: 30px;
     margin: 0px;
     color: #000000;
 }
 
 .portfolio{
     margin-top: 20px;
-    font-size: 20px;
+    margin-left: auto;
+    font-size: 25px;
     background: #4169E1;
     text-decoration: none;
     padding: 5px, 10px, 5px, 10px;
+    border-radius: 15px;
+    background-color: #4169E1;
 }
 
 /*Submenu Section*/
@@ -76,11 +81,16 @@ h2{
     margin: auto;
     padding: auto;
     padding-bottom: 40px;
-    background-color: #000000;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
     font-size: 40px;
+}
+
+.about-background{
+    background-image: url(backgrounds/computerOpening.jpg);
+    height: 100vh;
+    background-size: cover;
 }
 
 .about{
@@ -88,25 +98,27 @@ h2{
     justify-content: space-around;
     font-family: 'EB Garamond';
     justify-content: center;
-    background-image: url(backgrounds/computerOpening.jpg);
-    height: 100vh;
-    background-size: cover;
     align-items: stretch;
 }
 
-.profileImage {
-    justify-content: center;
-    max-width: 50%;
-    height: 40%;
-    border-radius: 50px;
+.about img {
     margin-left: 50px;
     margin-right: 50px;
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block; 
+    align-items: center;
+    display: flex;
+    border-radius: 50px;
+    justify-content: space-around;
+    height: 20%;
 }
 
 .paragraphAbout {
     color: #ffffff;
     font-family: 'EB Garamond';
-    font-size: 22px;
+    font-size: 18px;
     text-justify: auto;
     text-align: justify;
     display: inline-block;
@@ -115,15 +127,24 @@ h2{
 /*Business/Services Section*/
 
 .h3-service-style{
-    margin: auto;
-    padding: auto;
+    margin: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #ffffff;
-    color: #000000;
+    color: 	#000000;
     font-weight: bold;
     text-align: center;
     font-size: 40px;
+    font-style: italic;
+}
+
+.services-background{
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(backgrounds/deal.jpg);
+    height: 100vh;
+    background-size: cover;
+    height: 20%;
 }
 
 .container-services{
@@ -143,31 +164,37 @@ h2{
     padding-bottom: 10px;
     padding-left: 38px;
     border-radius: 15px;
+    border-style: 5px outset;
     margin: 30px;
-    font-size: 18px;
+    font-size: 17px;
     text-align: justify;
     height: 400px; /*resolves problem with text sizes*/
+
 }
 
 .blue{
     background-color: #40a8fa;
+    border-color: #40a8fa;
 }
 
 .violet{
+    border-color: #5055df;
     background-color: #5055df;
 }
 
 .container-services h4{
     font-size: 25px;
+    font-weight: bolder;
     color: #ffffff;
     margin: 0;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
+    font-style: italic;
 }
 
 .container-services img{
-    width: 75%;
+    width: 70%;
     margin: auto;
     display: inline-block;
     align-items: center;
@@ -175,10 +202,14 @@ h2{
     justify-content: space-around;
 }
 
-.process-improvement{
-    padding-bottom: 90px;
+.web-development{
+    padding-bottom: 25px;
 }
 
-.space{
-    padding-bottom: 45px;
+.process-improvement{
+    padding-bottom: 0px;
+}
+
+.data-engineering{
+    padding-bottom: 70px;
 }
