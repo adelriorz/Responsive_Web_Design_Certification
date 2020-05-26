@@ -7,7 +7,7 @@
 }
 
 header{
-    background-image: url(backgrounds/1.jpg);
+    background-image: url(backgrounds/daniel-leone-g30P1zcOzXo-unsplash.jpg);
     height: 100vh;
     background-size: cover;
 }
@@ -46,7 +46,7 @@ li{
     text-align: center;
 }
 
-a{
+a {
     color: #ffffff;
     padding: 5px;
     text-decoration: none;
@@ -75,7 +75,7 @@ h2{
     background-color: #4169E1;
 }
 
-/*Submenu Section*/
+/*ABOUT SECTION*/
 
 .about-background h3{
     margin: 0px;
@@ -95,7 +95,7 @@ h2{
     background-size: cover;
 }
 
-.about{
+#about{
     display: flex;
     justify-content: space-around;
     font-family: 'EB Garamond';
@@ -103,7 +103,7 @@ h2{
     align-items: stretch;
 }
 
-.about img {
+#about img {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 30px;
@@ -126,7 +126,7 @@ h2{
     display: inline-block;
 }
 
-/*Business/Services Section*/
+/*SERVICES SECTION*/
 
 .h3-service-style{
     margin: 20px;
@@ -228,4 +228,200 @@ h2{
 
 .owl-nav{
     text-align: center;
+}
+
+
+/*BLOG SECTION*/
+
+#blog-section{
+    background-color: #F9FAFC;
+    padding-top: 20px;
+}
+
+.pubs-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#blog-section h3 {
+    font-style: italic;
+}
+
+
+
+.pubs-container img {
+    width: 100%;
+}
+
+.pub {
+    width: 30%;
+    box-shadow: 1px 1px 14px #CCC;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.pub h4{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: large;
+}
+
+.pub p {
+    color: #5a6169;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.pub a {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 120px;
+    font-size: 16px;
+}
+
+#section-contact {
+    background: linear-gradient(rgba(84, 93, 220, .94), 
+    rgba(96, 171, 245, .9));
+    text-align: center;
+    padding: 50px 0px 100px 0px;
+}
+/*RGB=Red, green and blue
+A=Alpha/Transparency.94 and .9 reffers to transparency*/
+
+#section-contact h3 {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+#section-contact a {
+    padding: 15px 45px 15px 45px;
+    margin-top: 20px;
+    margin-left: auto;
+    font-size: 18px;
+    background: #4169E1;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(96, 171, 245, .9);
+    box-shadow: 1px 1px 14px #CCC;
+    border: #000080;
+    transition: 0.3s;
+}
+
+#section-contact a:hover {
+    color: black;
+    transition: 0.3s;
+    transform: scale(1.5);
+    display: inline-block;
+}
+
+#whatsapp a {
+    background: none;
+    position: fixed;
+    top: 85%;
+    left: 94%;
+}
+
+#whatsapp img {
+    width: 90%;
+} 
+
+#menu-icon {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    /*Will be applied when max 
+    width is 480px*/
+    menu nav {
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        background: #0C2A59;
+        width: 100%;
+        display: none;
+    }
+
+    menu .list {
+        flex-direction: column;
+        display: flex;
+    }
+
+    header {
+        height: 50vh;
+    }
+
+    #menu-icon {
+        display: block;
+        width: 50px;
+    }
+
+    .menu {
+        margin-top: 50px;
+    }
+
+    .menu img {
+        width: 50%;
+    }
+
+    .title h1 {
+        font-size: 48px;
+    }
+
+    .title h2 {
+        font-size: 20px;
+    }
+
+    .about-background{
+        flex-direction: column;
+        background-size: auto;
+    }
+
+    .paragraphAbout {
+        width: 90%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .services-background {
+        background-size: auto;
+    }
+
+    .service {
+        width: 72%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .h3-service-style {
+        font-size: 46px;
+    }
+
+    .pubs-container {
+        flex-direction: column;
+    }
+
+    .pub{
+        width: 85%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 700px) and (max-width:900px) {
+    header {
+        height: 53vh;
+    }
+
+    .service {
+        width: 44%;
+    }
+
+    .pub {
+        width: 62%;
+    }
 }

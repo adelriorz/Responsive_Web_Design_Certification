@@ -14,6 +14,10 @@
     href="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\owlcarousel\owl.carousel.min.css">
     <link rel="stylesheet" 
     href="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\owlcarousel\owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <meta name="viewport" 
+    content="width=device=width, user-scalable=no">
+
 </head>
 
 <body>
@@ -26,15 +30,24 @@
 
             <!--Puede ser afectado por .paises ul{display: flex;}-->
             <p id="menuTitle">Armando Del Río Ramírez</p>
-
+            
+            <img id="menu-icon" src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\menu.png">
+            
                 <nav>
-                    <ul>
-                        <li><a href="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\about.html">About</a></li> 
+                    <ul class="list">
+                        <li><a href=""
+                        title="Jump to About">About</a></li> 
                         <!--Will cotain cv, links and bio-->
-                        <li><a href="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\business-services.html">Services</a></li>
+                        <li><a href=""
+                        title="Jump to Services"
+                        >Services</a></li>
                         <!--What kind of jobs can I do-->
-                        <li><a href="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\business/blog.html">Blog</a></li>
+                        <li><a href=""
+                        title="Jump to Blog"
+                        >Blog</a></li>
                         <!--Writting about anything-->
+                        <li><a href=""
+                        title="Get in touch">Contact me</a></li> 
                     </ul>
                 </nav>
             
@@ -44,7 +57,9 @@
                 <h1>Armando Del Río Ramírez</h1>
                 <h2>Software Engineer Student</h2>
                 <p><cite>"Knowledge makes you resourceful. Feedback makes you wise"<br> </cite> -Hector Arevalo</p>
-                <p><a class="portfolio" href="https://github.com/adelriorz">Portfolio</a></p>
+                <p><a class="portfolio" 
+                href="https://github.com/adelriorz"
+                title="Github link">Portfolio</a></p>
             </div>
 
         </div>
@@ -55,7 +70,7 @@
 
             <h3><br>About me</h3> 
 
-            <div class="about">
+            <div id="about">
                 
                 <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\profile-photo.jpg" 
                 alt="Armando Del Río Ramírez" 
@@ -95,7 +110,8 @@
                         I can help you out polishing to meet the needs and accomplishing the
                         project.
                     </p>
-                    <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\web-design.jpg">
+                    <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\web-design.jpg"
+                    alt="web development">
                 </div>
 
                 <div class="service violet">
@@ -105,7 +121,8 @@
                         </br></br>Using Capacity Maturity Model Integrated (CMMI), Team software process (TSP)
                         and Personal Software Process(PSP).
                     </p>
-                    <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\process-improvement.jpg">
+                    <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\process-improvement.jpg"
+                    alt="Process Improvement">
                 </div>
 
                 <div class="service blue">
@@ -113,7 +130,8 @@
                     <p class="data-engineering">
                         From Data Engineering, Data Analytics and Data Science.</br>
                         From the data warehousing (access, setting and outputs) to business decisions.</p>
-                    <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\data-engineering.jpg">
+                    <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\data-engineering.jpg" 
+                    alt="Data Engineering">
                 </div>
    
             </div>
@@ -129,7 +147,7 @@
             <h3 class="h3-service-style">My Projects</h3>
 
             <div class="owl-carousel">
-                <div> <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\java-logo.png"> </div>
+                <div> <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\java-logo.png" alt="Java Programming"> </div>
                 <div> <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\java-logo.png"> </div>
                 <div> <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\java-logo.png"> </div>
             </div> 
@@ -138,23 +156,66 @@
 
     </section>
     
-    <section> <!--Blog Section-->
+    <section id="blog-section"> <!--Blog Section-->
 
         <div class="container">
 
-            <h3 class="h3-service-style">Working with me</h3>
+            <h3 class="h3-service-style">Blog</h3>
+
+            <div class="pubs-container">
+            
+                <div class="pub">
+                    <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\Big-Data.jpg">
+                    <h4>What is a Data Engineer?</h4>
+                    <p>
+                        Get to know tooling,</br> activities and the future
+                        of this role.
+                    </p>
+                    <a class="portfolio" href="">Continue reading <i class="fas fa-arrow-right"></i></a>
+                </div>
+      
+                <div class="pub">
+                    <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\carlos-muza-hpjSkU2UYSU-unsplash.jpg">
+                    <h4>Difference between a Data Science</br>and Data Scientist</h4>
+                    <p>
+                        Are roles even related, clear your</br>mind over this trendy topics.
+                    </p>
+                    <a class="portfolio" href="">Continue reading <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+            </div>
 
         </div>
 
     </section>
+
+    <section id="section-contact">
+
+        <div class="container">
+            
+            <h3>Contact me</h3>
+            <a href="">Let's chat</a>
+
+        </div>
+
+    </section>
+
+    <section id="whatsapp">
+        <a href="https://wa.me/<523323437084>">
+            <img src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\backgrounds\whatsapp.png"
+            alt=""
+            title="My whatsapp">
+        </a>
+    </section>
+
+<!--Scripting Section-->
 
     <script src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\owlcarousel\jquery.min.js"></script>
     <script src="C:\Users\Armando\Desktop\Responsive_Web_Design_Certification\adelriorz\owlcarousel\owl.carousel.min.js"></script>
 
     <script>
         $('.owl-carousel').owlCarousel({
-        $('.owl-carousel').owlCarousel({
-            loop:true,
+            loop: true,
             margin:10,
             navElement:[ , , ],
             responsive:{
@@ -168,7 +229,12 @@
                     items:4
                 }
             }
-        });
+        })
+
+        $('.menu-icon').click(function(){
+            $('header nav').slideToggle();
+        })
+
     </script>
 
 </body>
